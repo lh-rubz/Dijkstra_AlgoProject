@@ -9,7 +9,7 @@ import {ImageMap}from './components/ImageMap';
 import getCountryByCapital from "./capitaltocountry";
 
 import { Graph } from "./DScomponents/Graph";
-import CustomDropdown from "./components/customDropDown";
+import CustomDropdown from "./components/CustomDropdown";
 import { Country } from "./DScomponents/Country";
 import { Vertex } from "./DScomponents/Vertex";
 import { Edge } from "./DScomponents/Edge";
