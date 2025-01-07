@@ -1,0 +1,58 @@
+
+
+
+// int vertex;
+
+// struct tableEntry {
+//     List header;
+//     boolean known;
+//     distType dist;
+//     vertex path;
+// };
+
+// tableEntry Table[numberOfVertex + 1];
+
+// void initializeTable(vertex start, Graph G, tableEntry T[]) {
+//     int i;
+//     readGraph(G, T);
+
+//     for (i = numberOfVertex; i > 0; i--) {
+//         T[i].known = false;
+//         T[i].dist = INT_MAX;
+//         T[i].path = notVertex;
+//     }
+
+//     T[start].dist = 0;
+// }
+
+// void Dijkstra(tableEntry T[]) {
+//     vertex v, w;
+
+//     for (;;) {
+//         v = smallestUnknownDistanceVertex();
+
+//         if (v == notVertex) {
+//             break;
+//         }
+
+//         T[v].known = true;
+
+//         for each w adjacent to v {
+//             if (!T[w].known) {
+//                 if (T[v].dist + C[v,w] < T[w].dist) {
+//                     T[w].dist = T[v].dist + C[v,w];
+//                     T[w].path = v;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// void printPath(vertex v, tableEntry T[]) {
+//     if (T[v].path != notVertex) {
+//         printPath(T[v].path, T);
+//         print(" to ");
+//     }
+
+//     print(v);
+// }

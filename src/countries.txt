@@ -1,0 +1,168 @@
+48,115
+Amsterdam,52.3600781448362, 4.901180094762962
+Ankara,39.92502976889332, 32.86846421289749
+Athens,37.97863152926869, 23.72838014304354
+Abu Dhabi,24.477927307814593, 54.36339529707415
+Bangkok,13.756861738292683, 100.4854082923698
+Beijing,39.91174036745615, 116.41376444546195
+Berlin,52.526740432138936, 13.372418815203856
+Bogotá,4.705764564412003, -74.08516233501057
+Brasília,-15.79795827197941, -47.9085758279552
+Brussels,50.84999253120203, 4.362731369522866
+Buenos Aires,-34.60271471340487, -58.377692075933446
+Cairo,30.047873315539803, 31.237518525013922
+Canberra,-35.278786195933506, 149.14072164004898
+Copenhagen,55.67005131337326, 12.54847458341567
+Dhaka,23.808397317964648, 90.41074925941274
+Dublin,53.349286204341084, -6.263589736893773
+Hanoi,21.026885817887244, 105.83284043318821
+Helsinki,60.16445795288285, 24.93762964215875
+Islamabad,33.69438548479066, 73.06943466719677
+Jakarta,-6.198244086095031, 106.81160597164954
+Kuala Lumpur,3.1508339497452234, 101.68834812713378
+Kuwait City,29.376507634004223, 47.97911937789704
+Lima,-12.051963668680532, -77.04826209691448
+Lisbon,38.72146713274748, -9.146700776127034
+London,51.50510611935659, -0.11948588824250753
+Madrid,40.41448716878806, -3.71116588284334
+Manila,14.597812813040392, 120.98504944034133
+Mexico City,19.424113410054936, -99.12993551046584
+Moscow,55.785550944551666, 37.786122559362845
+Nairobi,-1.2963226995814436, 36.81163165142922
+New Delhi,28.62584602797187, 77.21168029602973
+Oslo,59.91754473792311, 10.743891022544188
+Ottawa,45.431770426862826, -75.54267020603932
+Paris,48.856930355789856, 2.346338997752393
+Pretoria,-25.761989242581215, 28.19515104348801
+Rabat,34.01010038105497, -6.854528226160929
+Reykjavik,64.14699027531907, -21.942482356437758
+Riyadh,24.739379146310835, 46.849098048935275
+Rome,41.89120104694733, 12.476903965362519
+Seoul,37.548323, 126.991162
+Singapore,1.2810277769072338, 103.85517674366591
+Stockholm,59.332848044410454, 18.05936891794181
+Sydney,-33.88297903241679, 151.17897396170304
+Tokyo,35.75734093732225, 140.04146216207621
+Vienna,48.203289529081715, 16.369992094613337
+Warsaw,52.23170170285978, 21.013320735418134
+Washington D.C.,38.90524368992673, -77.0327721091186
+Zurich,47.37499867699218, 8.542905656736043
+Amsterdam,Ankara,150,220
+Amsterdam,Athens,112.5,195
+Amsterdam,Bangkok,795,660
+Amsterdam,Beijing,900,650
+Amsterdam,Berlin,110,80
+Amsterdam,Brussels,280,45
+Amsterdam, Buenos Aires,1125,820
+Amsterdam,Cairo,435,270
+Amsterdam,Copenhagen,100,80
+Amsterdam,Dublin,43.5,100
+Amsterdam,Helsinki,157.5,140
+Amsterdam,Jakarta,680,855
+Amsterdam, Kuala Lumpur,1095,735
+Amsterdam, Kuwait City,407.5,350
+Amsterdam,Lima,1090,750
+Amsterdam,Lisbon,142.5,185
+Amsterdam,London,65,70
+Amsterdam,Madrid,90,160
+Amsterdam, Mexico City,1020,727
+Amsterdam,Nairobi,710,510
+Amsterdam, New Delhi,870,480
+Amsterdam,Oslo,132.5,105
+Amsterdam,Paris,200,80
+Amsterdam,Pretoria,940,650
+Amsterdam,Reykjavik,142.5,205
+Amsterdam,Rome,222.5,130
+Amsterdam,Seoul,875,715
+Amsterdam,Singapore,960,745
+Amsterdam,Stockholm,130,120
+Amsterdam,Tokyo,1350,800
+Amsterdam,Vienna,170,105
+Amsterdam,Warsaw,222.5,115Amsterdam,Washington D.C.,1700,540  
+Amsterdam,Zurich,190,85  
+Amsterdam, Hong Kong,1000,717  
+Amsterdam, Los Angeles,1775,665  
+Amsterdam,Dubai,295,400  
+Ankara,Amsterdam,235,255  
+Ankara,Berlin,215,205  
+Ankara,Brussels,102.5,240  
+Ankara,Copenhagen,195,210  
+Ankara,Lisbon,140,315  
+Ankara,London,90,260  
+Ankara,Moscow,287.5,270  
+Ankara,Paris,282.5,250  
+Ankara,Stockholm,77.5,240  
+Ankara,Vienna,92.5,167  
+Ankara,Warsaw,137.5,170  
+Ankara,Zurich,160,205  
+Ankara,Dubai,217.5,245  
+Athens,Amsterdam,187.5,220  
+Athens,Berlin,135,175  
+Athens,Brussels,150,205  
+Athens,Cairo,117.5,120  
+Athens,Copenhagen,107.5,200  
+Athens,Dublin,242.5,275  
+Athens,Helsinki,172.5,215  
+Athens,Lisbon,192.5,275  
+Athens,London,47.5,240  
+Athens,Madrid,180,235  
+Athens,Oslo,137.5,235  
+Athens,Paris,77.5,205  
+Athens,Reykjavik,260,360  
+Athens,Riyadh,217.5,225  
+Athens,Rome,85,135  
+Athens,Singapore,285,650  
+Athens,Stockholm,157.5,225  
+Athens,Vienna,75,145  
+Athens,Warsaw,102.5,155  
+Athens,Zurich,177.5,170  
+Athens,Dubai,400,290  
+Bangkok,Amsterdam,885,755  
+Bangkok, Beijing,215,285  
+Bangkok,Brussels,682.5,730  
+Bangkok,Copenhagen,930,785  
+Bangkok,Dhaka,177.5,165  
+Bangkok,Hanoi,62.5,135  
+Bangkok,Helsinki,1125,750  
+Bangkok,Islamabad,412.5,335  
+Bangkok,Jakarta,122.5,215  
+Bangkok, Kuala Lumpur,60,130  
+Bangkok, Kuwait City,490,460  
+Bangkok,London,700,820  
+Bangkok,Madrid,630,840  
+Bangkok,Manila,137.5,210  
+Bangkok,Nairobi,680,545  
+Bangkok, New Delhi,185,270  
+Bangkok,Oslo,567.5,775  
+Bangkok,Paris,577.5,765  
+Bangkok,Riyadh,620,490  
+Bangkok, Rome,1165,780  
+Bangkok,Seoul,180,345  
+Bangkok,Singapore,65,145  
+Bangkok,Stockholm,527.5,715  
+Bangkok,Sydney,772.5,560  
+Bangkok,Tokyo,157.5,385  
+Bangkok,Vienna,680,675  
+Bangkok,Zurich,640,705  
+Bangkok, Hong Kong,77.5,170  
+Bangkok,Dubai,357.5,420  
+Beijing,Amsterdam,665,675  
+Beijing,Bangkok,305,315  
+Beijing,Cairo,775,660  
+Beijing,Dhaka,255,355  
+Beijing,Hanoi,260,260  
+Beijing,Islamabad,455,390  
+Beijing, Kuala Lumpur,230,390  
+Beijing,London,590,695  
+Beijing,Manila,275,310  
+Beijing,Moscow,650,510  
+Beijing,Paris,1095,770  
+Beijing,Riyadh,530,705  
+Beijing,Seoul,100,135  
+Beijing,Singapore,237.5,385  
+Beijing,Sydney,1750,680  
+Beijing,Tokyo,370,220  
+Beijing,Warsaw,2175,710  
+ 
+
+

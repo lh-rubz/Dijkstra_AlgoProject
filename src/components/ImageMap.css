@@ -1,0 +1,90 @@
+.image-map-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.capital-dot {
+  position: absolute;
+  background-color: #ff6347; /* Tomato red */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4); /* Light shadow for effect */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect on hover */
+}
+
+.capital-dot:hover {
+  transform: scale(1.4); /* Slightly enlarges the dot on hover */
+  z-index: 2;
+}
+
+.info-box {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+  background-color: #333; /* Dark background for contrast */
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  width: 300px;
+  font-family: "Arial", sans-serif;
+  animation: slideUp 0.5s ease-out; /* Slide-up animation */
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.emoji {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcc00; /* Bright yellow for the title */
+  margin-bottom: 8px;
+}
+
+.info-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.info-text p {
+  color: #ffffff;
+}
+
+.info-box.slide-out {
+  transform: translateX(-100%); /* Move the box to the left */
+  opacity: 0; /* Optional, fade out */
+}
+.capital-name {
+  background-color: transparent;
+  color: black;
+  padding: 3px 1px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align: center;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
