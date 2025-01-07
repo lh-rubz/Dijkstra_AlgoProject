@@ -201,7 +201,7 @@ if(toVertex && fromVertex){
   
   const getImageForCountry = (country: string | undefined) => {
     if (!country) {
-      return 'public/country_flags/unknown.png'; 
+      return '/country_flags/unknown.png'; 
     }
   try{
     const formattedCountry = country.toLowerCase().replace(/\s+/g, "-");
