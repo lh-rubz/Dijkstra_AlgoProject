@@ -1,0 +1,103 @@
+/* Custom Dropdown Container */
+.dropdown-container {
+    position: relative;
+    display: block;
+    
+    width: 250px;
+  }
+  
+  /* Dropdown Button */
+  .dropdown-button {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #4A90E2; /* Change to blue */
+    border: 1px solid #3C7DD9; /* Darker blue border */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff; /* White text */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, border 0.3s ease;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+    border: 1px solid #2C5D94; /* Darker border */
+  }
+  
+  .dropdown-arrow {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  /* Dropdown List */
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff; /* White background */
+    border: 1px solid #E2E8F0; /* Soft border color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 0;
+    z-index: 1000;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  /* Custom Scroll */
+  .dropdown-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .dropdown-list::-webkit-scrollbar-thumb {
+    background-color: #6C757D; /* Dark grey scrollbar */
+    border-radius: 10px;
+  }
+  
+  .dropdown-list::-webkit-scrollbar-thumb:hover {
+    background-color: #495057; /* Darker grey on hover */
+  }
+  
+  /* Dropdown Item */
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #F1F3F5; 
+  }
+  
+  /* Image in the Dropdown Item */
+  .dropdown-image {
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    object-fit: cover;
+   
+  }
+  
+  /* Adjust the Dropdown Button Text */
+  .dropdown-button span {
+    font-size: 16px;
+  }
+  
+  /* Accessibility Focus */
+  .dropdown-item:focus,
+  .dropdown-button:focus {
+    outline: 2px solid #4A90E2; /* Blue focus outline */
+  }
+  

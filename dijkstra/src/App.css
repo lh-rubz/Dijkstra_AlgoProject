@@ -1,0 +1,255 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+body {
+  font-family: "Titan One", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  gap: 16px; 
+  padding: 16px; 
+  box-sizing: border-box;
+}
+
+/* Map Container */
+.map-container {
+  flex: 3;
+  background: #f39c12;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  overflow: hidden; 
+}
+
+/* Control Panel */
+.control-panel {
+  flex: 1.5; /* Adjust proportions for a better balance */
+  padding: 24px;
+  background-color: #1abc9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  gap: 20px; 
+}
+
+/* Input and Output Sections */
+.input-section,
+.output-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; 
+}
+
+/* Form Inputs */
+.form-input,
+.form-textarea,
+.select-box {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #34495e;
+  margin-left: -5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.map-type-toggle {
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* Focus Effects */
+.form-input:focus,
+.form-textarea:focus,
+.select-box:focus {
+  outline: none;
+  border-color: #9b59b6;
+  box-shadow: 0 0 8px rgba(155, 89, 182, 0.5);
+}
+
+/* Textarea */
+.form-textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Select Box */
+.select-box {
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;base64,...");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 18px;
+}
+
+/* Button Styles */
+.run-button ,.reset-button{
+ 
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.reset-button{
+  background-color: #e74c3c;
+
+}
+.run-button{
+  background-color: #f39c12;
+}
+.image-map-container {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-map-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-map-container circle {
+  transition: transform 0.2s ease;
+}
+
+.image-map-container circle:hover {
+  transform: scale(1.5);
+}
+
+.run-button:hover {
+  background-color: #e74c3c;
+  box-shadow: 0 0 10px #e74c3c;
+}
+.reset-button:hover {
+  background-color: #f39c12;
+  box-shadow: 0 0 10px #f39c12;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .app-container {
+    gap: 12px; /* Adjust spacing for medium screens */
+    padding: 12px;
+  }
+
+  .map-container {
+    flex: 2.5;
+  }
+
+  .control-panel {
+    flex: 1.2;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    gap: 16px;
+    padding: 12px;
+  }
+
+  .map-container {
+    height: 60vh;
+    border-radius: 12px;
+  }
+
+  .control-panel {
+    height: auto;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 16px;
+  }
+}
+.capital-name-icon .capital-name {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 3px 1px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align: center;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.capital-name-icon {
+  position: absolute;
+  top: 18px;
+  left: 42px;
+  pointer-events: none;
+}
+.file-upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7f7f7;
+}
+
+/* Style for the file input - hide the actual input */
+.file-upload-input {
+  display: none;
+}
+
+/* Custom label to act as the button */
+.file-upload-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for the button */
+.file-upload-button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+/* Active effect for the button */
+.file-upload-button:active {
+  transform: translateY(1px);
+}
+
+/* Optional focus outline effect */
+.file-upload-button:focus {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
